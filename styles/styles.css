@@ -1,77 +1,79 @@
-*{
-    margin: 0;
+ 
+ *{
     padding: 0;
+    margin: 0;
+ }
+ .nav-bar{
 
-}
-.nav-bar{
     display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-    width: 99%;
     height: 100px;
-    border-radius: 50px;
-    background: linear-gradient(45deg,rgb(8, 86, 150),rgb(236, 90, 171));
-   
-    
-}
-.nav-bar a{
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: all o.5s ease;
-}
-.nav-bar a:hover{
-    color:black;
-}
-
-.nav-bar ul{
-    display: flex;
-    
-}
-.nav-bar li{
-    list-style: none;
-    padding: 20px;
-    margin-top: 10px;
-    transition: all 0.5s ease;
-}
-
-
-
-.nav-bar ul li ul .drop-down li{
-    display: block;
-    transition: all 0.5s ease;
-}
-ul li ul.drop-down  {  
-    background: linear-gradient(45deg,rgb(8, 86, 150),rgb(236, 90, 171));
-    margin-top: 50px;
+    width: 1400px;
+    background-color: pink;
+ }
+.nav-bar img{
+    height: 150px;
     width: 150px;
+    margin-left: 20px;
+}
+.nav-bar button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: pink;
+    transition: all 0.5s ease;
+     
+}
+.nav-bar button:hover{
+    background-color: rgb(128, 128, 234);
+}
+
+
+
+ ul{
+    list-style: none;
+    background-color: pink;
+ }
+ ul li{
+    display: inline-block;
+    position: relative;
+ }
+ ul li a{
+
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    font-size: 25px;
+ }
+
+ ul li ul.dropdown li{
+    display: block;
+ }
+ ul li ul.dropdown{
+    width: 100%;
+    background-color: pink;
     position: absolute;
     z-index: 999;
-    display: none; 
-    /* margin-top: 10px; */
-    border-radius: 10px;
-    
-    transition: all 0.5s ease;
-   
-}
-ul li:hover ul.drop-down {
-    display: block;
-   
-}
+    display: none;
+    border-radius: 5px;
+ }
 
-.drop-down li a{
-    transition: all 0.5s ease;
-}
-.drop-down li a:hover{
-   color: white;
-}
-/* .nav-bar h1{
-    margin-left: 30px;
-    margin-top: 20px;
-    color: white;
-    transition: all 0.5s ease;
-} */
+ ul li a:hover{
+    background-color: pink;
+ }
+ ul li:hover ul.dropdown{
+    display: block;
+ }
+
+
+
+
+
+
+ 
 
 
 

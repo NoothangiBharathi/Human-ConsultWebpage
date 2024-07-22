@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+ }
+ .container{
+    background-color: bisque;
+ }
+ .nav-bar{
+
+    display: flex;
+    height: 100px;
+    width: 1400px;
+    background-color: pink;
+ }
+.nav-bar img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+.nav-bar button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: pink;
+    transition: all 0.5s ease;
+     
+}
+.nav-bar button:hover{
+    background-color: rgb(128, 128, 234);
+}
+
+
+
+ ul{
+    list-style: none;
+    background-color: pink;
+ }
+ ul li{
+    display: inline-block;
+    position: relative;
+ }
+ ul li a{
+
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    font-size: 25px;
+ }
+
+ ul li ul.dropdown li{
+    display: block;
+ }
+ ul li ul.dropdown{
+    width: 100%;
+    background-color: pink;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 5px;
+ }
+
+ ul li a:hover{
+    background-color: pink;
+ }
+ ul li:hover ul.dropdown{
+    display: block;
+ }
+
+
+
+
+
+ .services-image img{
+    height: 500px;
+    width: 1370px;
+ }
+ .services-image  h1{
+
+    margin-top: -430px;
+    text-align: center;
+     
+ }
+ .services-image  p{
+
+     margin-top: 20px; 
+    text-align: center;
+     
+ }
+ .services-image button{
+    height: 50px;
+    width: 150px;
+    margin-left: 400px;
+
+ }
+
+

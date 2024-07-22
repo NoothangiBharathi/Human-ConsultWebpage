@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+ }
+ .container{
+    background-color: wheat;
+ }
+ .nav-bar{
+
+    display: flex;
+    height: 100px;
+    width: 1400px;
+    background-color: pink;
+ }
+.nav-bar img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+.nav-bar button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: pink;
+    transition: all 0.5s ease;
+     
+}
+.nav-bar button:hover{
+    background-color: rgb(128, 128, 234);
+}
+
+
+
+ ul{
+    list-style: none;
+    background-color: pink;
+ }
+ ul li{
+    display: inline-block;
+    position: relative;
+ }
+ ul li a{
+
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    font-size: 25px;
+ }
+
+ ul li ul.dropdown li{
+    display: block;
+ }
+ ul li ul.dropdown{
+    width: 100%;
+    background-color: pink;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 5px;
+ }
+
+ ul li a:hover{
+    background-color: pink;
+ }
+ ul li:hover ul.dropdown{
+    display: block;
+ }
+
+
+
+
+
+
+ .get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+ }
+
+ .get-in-touch2{
+
+    display: flex;
+    margin-top: 20px;
+ }
+ .get-in-touch1{
+    margin-left: 30px;
+ }
+ .get-in-touch1 p{
+    margin-top: 20px;
+ }
+ .get-in-touch1 p{
+    margin-top: 20px;
+ }
+ .get-in-touch-image ion-icon{
+    font-size: 35px;
+ }
+ .get-in-touch-heading h2{
+    margin-left: 20px;
+ }
+ .get-in-touch-heading h3{
+    margin-left: 20px;
+    margin-top: 5px;
+ }
+
+
+
+
+
+.firstname{
+    height: 500px;
+    width: 550px;
+    background-color: bisque;
+    margin-right: 30px;
+    
+}
+ .box{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 30px;
+ }
+ .box .box1 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px; 
+    margin-top: 40px;
+    margin-left: 60px;
+
+ }
+
+ .box3 button{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+ }
+ .box4 button{
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+
+
+
+ 
+.blog-Image2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+.blog-Image2 .heading h2{
+    margin-left: 300px;
+    color: goldenrod;
+    margin-top: 60px;
+}
+.blog-Image2 .heading h1{
+    margin-left: 250px;
+    margin-top: 40px;
+    color: purple;
+}
+.blog-Image2 .heading h3{
+    margin-left: 150px;
+    margin-top: 40px;
+    color: cadetblue;
+}
+.blog-Image2 .heading button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(230, 223, 223);
+    transition: all 0.5s ease;
+    margin-left: 300px;
+    margin-top: 40px;
+    
+}
+.blog-Image2 .heading button:hover{
+    background-color: gray;
+}
+.blog-Image2 .blog-Images2 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+/*----------------------------------------*/
+.footer{
+    height: 600px;
+    width: 1400px;
+     background-color: rgb(133, 133, 227);;
+     margin-top: 100px;
+     color: white;
+}
+
+
+.navbar2{
+    display: flex;
+    margin-top: 100px;
+    /* margin-left: 50px; */
+    /* background-color: rgb(133, 133, 227); */
+    /* height: 500px;
+    width: 1400px; */
+}
+
+ 
+.navbar2 .contact2{
+    margin-left: 100px;
+}
+.navbar2 .contact3{
+    margin-left: 100px;
+}
+.navbar2 .contact4{
+    margin-left: 100px;
+}
+.navbar2 .contact4 button{
+     margin-top: 20px; 
+     font-size: 20px;
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(110, 110, 232);
+    transition: all 0.5s ease;
+}
+.navbar2 .contact4 button:hover{
+    background-color: peachpuff;
+}
+.navbar2 .contact4 ion-icon{
+    
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+
+
+.navbar2 h1{
+    margin-top: 50px;
+    
+}
+.navbar2 h2{
+    margin-top: 10px;
+}
+.human-consult-image{
+    text-align: center;
+    margin-top: 50px;
+}
+.human-consult-image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}

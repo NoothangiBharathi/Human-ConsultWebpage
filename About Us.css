@@ -1,10 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
  
-*{
+ *{
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+ }
+ body{
+    background-color: rgb(236, 181, 161);
  }
  .nav-bar{
 
@@ -14,8 +14,8 @@
     background-color: pink;
  }
 .nav-bar img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin-left: 20px;
 }
 .nav-bar button{
@@ -72,219 +72,146 @@
  }
 
 
+
+
+
+
  
 
 
 
-
-/* *{
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-} */
-.home1-Images{
-    display: flex;
-    background-color: aliceblue;  
-}
-.home1-Images .home1-image1-heading{
-    margin-top: 350px;
-    margin-right: 50px;
-}
-.home1-Images .home1-image1-heading p{
-    margin-left: 40px;
-    font-size: 20px;
-    color: red;
-    
-}
-.home1-Images .home1-image1-heading h1{
-    font-size: 45px;
-    color: magenta;
-
-}
-.home1-Images .home1-image1-heading h3{
-
-    font-size: 20px;
-    margin-left: 50px;
-    color: chocolate;
-
-}
-.home1-Images .home1-image1-heading button{
-    height: 40px;
+.nav-bar img{
+    height: 100px;
     width: 100px;
-    background-color: rgb(156, 156, 247);
-    border-radius: 10px;
-    transition: all 0.5s ease;
-    margin-top: 40px;
+
 }
-.home1-Images .home1-image1-heading button:hover{
-    background-color: pink;
+.nav-bar h1:hover{
+    color: black;
 }
-.aboutus{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+.nav-bar .nav-btn{
+    margin-right: 10px;
+    margin-top: 20px;
+   
 }
-.aboutus2 img{
-    height: 500px;
-    width: 550px;
+.nav-btn button{
+    border: none;
+    width: 130px;
+    height: 50px;
     border-radius: 20px;
-}
-.aboutus1{
-    margin-left: 30px;
-}
-.aboutus1 h1{
-    font-size: 60px;
-}
-.aboutus1 h3{
-    font-size: 25px;
-}
-.aboutus1 p{
-    font-size: 20px;
-    margin-top: 30px;
-}
-.aboutus1 button{
-    height: 40px;
-    width: 150px;
-    border-radius: 10px;
-    background-color: aliceblue;
+    font-size: 18px;
+    background-color: transparent;
+    
     transition: all 0.5s ease;
-    margin-top: 40px;
 }
-.aboutus1 button:hover{
-    background-color: rgb(175, 241, 241);
+.nav-btn a:hover{
+    color: white;
 }
-.home1-image11 img{
+.nav-btn button:hover{
+    background-color: rgb(87, 141, 202);
+    color:white;
+}
+
+/*----------------------------------------------------------------*/
+
+
+.who-we-are{
+    margin-top: 70px;
+}
+.who-we-are h1{
+    font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
+    color: magenta;
+}
+.who-we-are p{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+}
+.who-we-are img{
     height: 600px;
     width: 1300px;
     margin-left: 20px;
-    margin-top: 100px;
-    border-radius: 30px;
-    
+    margin-top: 30px;
+    border-radius: 20px;
 }
-
-
-
-
-.how-we-work{
+.our-vision-icon1{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
-.how-we-work1{
-    margin-left: 40px;
+.our-vision{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
 }
-.how-we-work1 p{
+.our-vision1{
+    margin-left: 30px;
+}
+.our-vision1 h3{
+    margin-top: 30px;
     font-size: 30px;
-    color: mediumaquamarine;
 }
-.how-we-work1 h1{
+.our-vision1 h1{
+    margin-top: 30px;
     font-size: 60px;
-    color: greenyellow
 }
-.how-we-work1 h3{
+.our-vision1 p{
+    margin-top: 30px;
     font-size: 20px;
-    color: rgb(225, 128, 128);
 }
-
-
-
-
-.how1{
-    display: flex;
-justify-content: space-between;
-margin-right: 50px;
-}
-.how-we-1 button{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: rgb(152, 152, 244);
-    margin-right: 50px;
-    margin-top: 50px;
-}
-
-.how2{
-    display: flex;
+.our-vision1 ion-icon{
     margin-top: 30px;
-    
-}
-.how-we-2 button{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: rgb(152, 152, 244);
-    margin-right: 50px;
-    margin-top: 50px;
-}
-
-.how3{
-    display: flex;
-    margin-top: 30px;
-    
-}
-.how-we-3 button{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: rgb(152, 152, 244);
-    margin-right: 50px;
-    margin-top: 50px;
-
-}
-
-.services{
-
-    margin-top: 100px;
+    font-size: 30px;
 }
 
 
-.services p{
-    text-align: center;
-    font-size: 25px;
+.our-vision-image img{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
 }
-.services h1{
-    text-align: center;
-    font-size: 60px;
-}
-
-.services-images{
+.expierence{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 90px;
 }
-
-.services-images1 img{
-
-    height: 400px;
-    width: 400px;
-    border-radius: 20px;
-    
-    
+.expierence1 h1{
+    font-size: 90px;
+    font-weight: 100;
+    color: pink;
 }
-.services-images2 img{
-
-    height: 400px;
-    width: 400px;
-    border-radius: 20px;
+.expierence1 h2{
+    font-size: 40px;
+    margin-top: -70px;
 }
-.services-images3 img{
-
-    height: 400px;
-    width: 400px;
-    border-radius: 20px;
+.our-history{
+    margin-top: 90px;
 }
-.services button{
-    height: 50px;
-    width: 100px;
-    border-radius: 20px;
-    margin-left: 600px;
+.our-history h3{
+    font-size: 30px;
+    text-align: center;
+}
+.our-history h1{
+    margin-top: 30px;
+    font-size: 70px;
+    text-align: center;
+}
+.our-history p{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.our-history img{
+    height: 600px;
+    width: 1200px;
+    margin-left: 60px;
+    border-radius: 30px;
     margin-top: 50px;
-    background-color: burlywood;
-    transition: all 0.5s ease;
 }
-.services button:hover{
-    background-color: fuchsia;
-}
+
+
+
 
 
 
@@ -323,7 +250,7 @@ margin-right: 50px;
 .leadership-images1 h2{
     margin-left: 60px;
     font-size: 40px;
-    color: fuchsia;
+    color: blue;
 }
 .leadership-images1 p{
     margin-left: 30px;
@@ -332,7 +259,7 @@ margin-right: 50px;
 .leadership-images1 ion-icon{
     font-size: 35px;
     margin-left: 20px;
-    color: rgb(233, 163, 233);
+    color: magenta;
 
 }
 .leadership-images2 img{
@@ -343,7 +270,7 @@ margin-right: 50px;
 .leadership-images2 h2{
     margin-left: 60px;
     font-size: 40px;
-    color: firebrick;
+    color:blue;
 }
 .leadership-images2 p{
     margin-left: 30px;
@@ -352,7 +279,8 @@ margin-right: 50px;
 .leadership-images2 ion-icon{
     font-size: 35px;
     margin-left: 20px;
-    color: rgb(228, 148, 148);
+    color:magenta;
+    margin-top: 30px;
 
 }
 .leadership-images3 img{
@@ -363,7 +291,7 @@ margin-right: 50px;
 .leadership-images3 h2{
     margin-left: 60px;
     font-size: 40px;
-    color: green;
+    color: blue;
 }
 .leadership-images3 p{
     margin-left: 30px;
@@ -372,9 +300,14 @@ margin-right: 50px;
 .leadership-images3 ion-icon{
     font-size: 35px;
     margin-left: 20px;
-    color: rgb(158, 232, 158);
+    color:magenta;
+    margin-top: 30px;
 
 }
+
+
+
+
 
 
 
@@ -393,7 +326,7 @@ margin-right: 50px;
     top: 50%;
     box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
     display: flex;
-    margin-top: 4600px;
+    margin-top: 3500px;
 }
 
 .testimonial-container {
@@ -457,115 +390,17 @@ button#prev {
     text-align: center;
 }
 
-/* @media screen and (max-width: 650px) {
-    .wrapper {
-        font-size: 14px;
-    }
-} */
-
-.blog{
-    margin-top: 600px;
-}
-.blog .blog-heading p{
-   text-align: center;
-   font-size: 25px;
-   font-weight: 1000;
-   color: mediumblue;
-}
-.blog .blog-heading h1{
-    margin-top: 30px;
-    text-align: center;
-    color: magenta;
-    font-size: 40px;
-}
-.blog .blog-heading h3{
-    margin-top: 30px;
-    text-align: center;
-    color: goldenrod;
-}
 
 
-.blog-Images{
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-}
-.blog-images1 img{
-    height: 300px;
-    width: 400px;
-    border-radius: 10px;
-    transition: all 0.5s ease;
-    margin-left: 30px;
-}
-.blog-images1 img:hover{
-   transform: scale(1.1);
-}
-
-
-
-.blog-images1 h1{
-    margin-left: 25px;
-    margin-top: 15px;
-}
-.blog-images1 p{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.blog-images1 h2{
-
-     margin-top: 30px;
-     margin-left: 20px;
-     text-decoration: underline;
-     color: mediumorchid;
-}
-.blog-images2 img{
-    height: 400px;
-    width: 500px;
-    border-radius: 10px;
-    margin-left: 0px;
-}
-.blog-images2 h1{
-    margin-left: 25px;
-    margin-top: 15px;
-}
-.blog-images2 p{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.blog-images2 h2{
-
-     margin-top: 30px;
-     margin-left: 20px;
-}
-.blog-images3 img{
-    height: 400px;
-    width: 500px;
-    border-radius: 10px;
-    margin-left: 20px;
-}
-.blog-images3 h1{
-    margin-left: 25px;
-    margin-top: 15px;
-}
-.blog-images3 p{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.blog-images3 h2{
-
-     margin-top: 30px;
-     margin-left: 20px;
-}
-/*----------------------------------------------------*/
 
 .blog-Image2{
-    margin-top: 100px;
+    margin-top: 550px;
     display: flex;
     justify-content: space-between;
 }
 .blog-Image2 .heading h2{
     margin-left: 300px;
-    color: goldenrod;
+    color: red;
     margin-top: 60px;
 }
 .blog-Image2 .heading h1{
@@ -603,12 +438,10 @@ button#prev {
 
 
 
-
-/*----------------------------------------*/
 .footer{
     height: 600px;
     width: 1400px;
-     background-color: rgb(133, 133, 227);;
+     background-color: rgb(136, 136, 237);
      margin-top: 100px;
      color: white;
 }
@@ -671,14 +504,5 @@ button#prev {
     width: 150px;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 
